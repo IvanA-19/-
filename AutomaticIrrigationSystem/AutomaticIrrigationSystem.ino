@@ -292,7 +292,8 @@ void loop(){
       }
     }
   }
-
+  
+  // Вращение энкодера позволяет прибавлять или убавлять настраиваемый параметр
   if(enc.isLeft()){
     if(settings_opend){
       switch(settings_mode){
@@ -332,7 +333,6 @@ void loop(){
     }
   }
 
-  // Вращение энкодера позволяет прибавлять или убавлять настраиваемый параметр
   if(enc.isRight()){
     if(settings_opend){
       switch(settings_mode){
